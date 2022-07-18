@@ -109,7 +109,7 @@ function stop(){
     if(count1 == 0){
         count1 = 1;
         
-    stop.innerHTML = "||"
+    stop.innerHTML = "&#8741"
     document.getElementById("capture").disabled = true;
     document.getElementById("reset").disabled = false;
     document.getElementById("start").disabled = true;
@@ -117,7 +117,7 @@ function stop(){
     }
     else{
         count1 = 0;
-        document.getElementById("stop").innerHTML = "stop";
+        document.getElementById("stop").innerHTML = "&#x25A0";
         document.getElementById("capture").disabled = false;
         timer = true;
         stopwatch();
