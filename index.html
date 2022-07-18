@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>STOP WATCH</title>
+</head>
+<body>
+    <div id="time">
+        <span id="hr">00</span>
+        <span class="hr2">hr</span>
+        <span id="min">00</span>
+        <span class="hr2">min</span>
+        <span id="sec">00</span>
+        <span class="hr2">sec</span>
+        <span id="count">00</span>
+        <!-- <div class="hr2">count</div> -->
+    </div>
+    <div id="btn-cnt">
+        <button class="btn" id="start" onclick="start()" ><i class="fa fa-play-circle" aria-hidden="true"></i></button>
+        <button class="btn" id="stop" onclick="stop()"><i class="fa fa-stop" aria-hidden="true"></i></button>
+        <button class="btn" id="reset" onclick="reset()"><i class="fa fa-refresh" aria-hidden="true"></i>
+        </button>
+        <button class="btn" id="capture" onclick="snaps()"><i class="fa fa-camera-retro" aria-hidden="true"></i></button>
+        <button class="btn" id="clear" onclick="clears()"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+    </div>
+
+    
+    <div id="snap"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
